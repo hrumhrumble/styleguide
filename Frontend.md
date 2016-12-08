@@ -18,7 +18,7 @@
 Стили
 ```
 ├─┬ stylesheets
-│ ├─┬ lib # общие стили
+│ ├─┬ lib <----------------------# общие стили
 │ │ ├── layout.sass
 │ │ ├── media.sass
 │ │ ├── forms.sass
@@ -26,18 +26,18 @@
 │ │ ├── tables.sass
 │ │ ├── typography.sass
 │ │ ├── ...
-│ ├─┬ vendor # стили библиотек
+│ ├─┬ vendor <-------------------# стили библиотек
 │ │ ├── datepicker.scss
 │ │ ├── dotdotdot.scss
-│ ├─┬ shared # блоки, разделяемые между несколькими страницами
+│ ├─┬ shared <-------------------# блоки, разделяемые между несколькими страницами
 │ │ ├── header.sass
 │ │ ├── footer.sass
 │ │ ├── ...
-│ ├─┬ pages # CSS отдельных страниц
+│ ├─┬ pages <--------------------# CSS отдельных страниц
 │ │ ├─┬ index
 │ │ │ ├── _top.sass
 │ │ │ ├── _bottom.sass
-│ │ ├── index.sass # разбивай большие файлы
+│ │ ├── index.sass <-------------# разбивай большие файлы
 │ │ ├── about.sass
 │ │ ├── contacts.sass
 │ │ ├── ...
@@ -73,7 +73,7 @@ JS
 │ │ ├─┬ index
 │ │ │ ├── _top.html
 │ │ │ ├── _bottom.html
-│ │ ├── index.html # разбивай большие файлы
+│ │ ├── index.html <-------------# разбивай большие файлы
 │ │ ├── about.html
 │ │ ├── contacts.html
 │ │ ├── ...
